@@ -10,7 +10,7 @@ import "./App.css";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    index: "/",
     element: <Navigate to="/signin" replace />,
   },
   {
